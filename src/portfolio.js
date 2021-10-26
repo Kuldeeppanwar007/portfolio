@@ -235,7 +235,7 @@ const bigProjects = {
     {
       image: require("./assets/images/idCard.png"),
       projectName: "Student And Teacher Id Card Generator",
-      projectDesc: "technology uses are React Js , Node Js FOR (Sant Singaji Institute Of Science And Management)",
+      projectDesc: "technology used are React Js , Node Js for (Sant Singaji Institute Of Science And Management)",
       footerLink: [
     
       ]
