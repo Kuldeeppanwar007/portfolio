@@ -17,7 +17,7 @@ export default function EducationCard({school}) {
   };
   const {isDark} = useContext(StyleContext);
   return (
-    <a href={school.web?school.link:"#education"} target={school.web?"_blank":'_self'}
+    <a  href={school.web?school.link:"#education"} target={school.web?"_blank":'_self'}
     rel="noopener noreferrer" className="education_Society_link" >
       <Fade left duration={1000}>
         
@@ -32,7 +32,7 @@ export default function EducationCard({school}) {
             />
           </div>
           <div className="education-card-right">
-            <h5 className="education-text-school">{school.schoolName}</h5>
+            <h5 className="education-text-school" style={isDark ? {color:'white'}:{}}>{school.schoolName}</h5>
 
             <div className="education-text-details">
               <h5

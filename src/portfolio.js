@@ -15,16 +15,16 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "https://drive.google.com/file/d/1XgtNVQw6adnHz6NhB06qh35WWiY45LN1/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
-// Social Media Links
+// Social Media Linksw
 
 const socialMediaLinks = {
   github: "https://github.com/kuldeeppanwar007",
   linkedin: "https://www.linkedin.com/in/kuldeep-panwar-0433a5184/",
-  hackerrank:"https://www.hackerrank.com/kuldeeppanwar007",
+  hackerrank: "https://www.hackerrank.com/kuldeeppanwar007",
   gmail: "kuldeeppanwar7697@gmail.com",
   // gitlab: "https://gitlab.com/",
   // facebook: "https://www.facebook.com/",
@@ -105,10 +105,10 @@ const educationInfo = {
       subHeader: "Bachelors in Computer Application (BCA)",
       duration: "September 2020 - April 2023",
       desc: "",
-      web:true,
-      link:"http://ssism.singaji.in/",
+      web: true,
+      link: "http://ssism.singaji.in/",
       descBullets: [
-        
+
       ]
     },
     {
@@ -118,8 +118,8 @@ const educationInfo = {
       duration: "September 2018 - April 2020",
       desc:
         "",
-        web:false,
-        link:"",
+      web: false,
+      link: "",
       descBullets: []
     }
   ]
@@ -143,8 +143,8 @@ const techStack = {
       progressPercentage: "90%"
     },
     {
-       Stack:"cloud (Learing)",
-       progressPercentage:"10%"
+      Stack: "cloud (Learing)",
+      progressPercentage: "25%"
 
     }
   ],
@@ -237,7 +237,10 @@ const bigProjects = {
       projectName: "Student And Teacher Id Card Generator",
       projectDesc: "technology used are React Js , Node Js for (Sant Singaji Institute Of Science And Management)",
       footerLink: [
-    
+        {
+          name: "Visit Website",
+          url: "https://cards.kuldeeppanwar.co.in"
+        },
       ]
     }
   ],
@@ -295,7 +298,7 @@ const achievementSection = {
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
           url: ""
