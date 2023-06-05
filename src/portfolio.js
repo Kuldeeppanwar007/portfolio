@@ -15,7 +15,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1XgtNVQw6adnHz6NhB06qh35WWiY45LN1/view?usp=sharing",
+    "https://drive.google.com/file/d/1EBEUdDvRXIEcEgne07OKpTqpxv5E8nE4/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -23,7 +23,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/kuldeeppanwar007",
-  linkedin: "https://www.linkedin.com/in/kuldeep-panwar-0433a5184/",
+  linkedin: "https://www.linkedin.com/in/kuldeeppanwar007",
   hackerrank: "https://www.hackerrank.com/kuldeeppanwar007",
   gmail: "kuldeeppanwar7697@gmail.com",
   // gitlab: "https://gitlab.com/",
@@ -46,7 +46,7 @@ const skillsSection = {
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS "
+      "⚡ Integration of third party services such as AWS "
     )
   ],
 
@@ -87,8 +87,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "docker", 
+      fontAwesomeClassname:"fab fa-docker"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -128,7 +128,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend / Design", //Insert stack or technology you have experience in
@@ -148,7 +148,7 @@ const techStack = {
 
     }
   ],
-  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -158,9 +158,10 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Clever Programmer",
-      companylogo: require("./assets/images/cpLogo.png"),
-      date: "September 2020 – Present",
+      company: "Baelworks",
+      companylogo: require("./assets/images/baelworks.jpeg"),
+      webUrl: "https://baelworks.com/",
+      date: "May 2022 - Present",
       desc:
         "Changing lives of developers one line of code at a time.",
       descBullets: [
@@ -169,22 +170,6 @@ const workExperiences = {
         "Streaming live on YouTube",
         "Creating tutorials"
       ]
-    },
-    {
-      role: "Product Owner (PSD2)",
-      company: "Erste Bank",
-      companylogo: require("./assets/images/ersteLogo.jpg"),
-      date: "July 2019 – September 2020",
-      desc:
-        "I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements."
-    },
-    {
-      role: "Junior Information Security & Systems Representative",
-      company: "Vodafone",
-      companylogo: require("./assets/images/vodafoneLogo.png"),
-      date: "November 2018 – July 2019",
-      desc:
-        "I've conducted internal audit making sure the organization is compliant with the GDPR."
     }
   ]
 };
@@ -193,9 +178,9 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
+  githubConvertedToken: "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",
   githubUserName: "kuldeeppanwar007", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: false, // Set true or false to show Contact profile using Github, defaults to true
   display: false // Set false to hide this section, defaults to true
 };
 
@@ -205,6 +190,42 @@ const bigProjects = {
   title: "Projects",
   subtitle: "THERE ARE SOME OF MY PROJECTS",
   projects: [
+    {
+      image: require("./assets/images/adsprint.png"),
+      projectName: "AD Sprint",
+      projectDesc: "It provides news agencies with a web-based advertising platform. Various types of advertising are available, including classifieds, obituaries, displays, and audited or unaudited financial reports. Online advertising campaigns can be managed and controlled with this. Using this medium, agencies can manage their advertising campaigns.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://wfs.adsprint.in/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/eclipse.png"),
+      projectName: "Eclipse.Xdr",
+      projectDesc: "Cyber Defense Portal (CDP) is a security portal includes third-party vendors API’s which detect threat and vulnerability and raise ticket, perform automation actions in order to block and allow suspected IP and Domain. It also includes a dashboard which shows the threat and vulnerability details.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://eclipse.cyberstash.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/singaji.png"),
+      projectName: "Singaji Central",
+      projectDesc: "The College Management Project is a software solution designed to streamline administrative tasks in educational institutions. It includes modules for attendance management, student fees management for all three years, admission management, a fees collection dashboard, and alumni management. This project aims to improve efficiency, transparency, and communication within the college administration, ultimately enhancing student management and alumni engagement.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://eclipse.cyberstash.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
     {
       image: require("./assets/images/LaptopManage.jpg"),
       projectName: "Laptop and Accesoris Management",
@@ -218,18 +239,11 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/amazonClone.jpg"),
-      projectName: "Amazon Clone",
-      projectDesc: "Clone of amazon and technology uses are React Js , Firebase",
+      image: require("./assets/images/bharosa.png"),
+      projectName: "Bharosa (Admin Panel)",
+      projectDesc: "An Agritech based ecommerce application admin panel, where we can manage product inventory , vendors and delivery flow.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://clone-60f52.web.app/"
-        },
-        {
-          name: "github Link",
-          url: "https://github.com/Kuldeeppanwar007/amazon-clone"
-        }
+    
       ]
     },
     {
@@ -378,7 +392,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "kuldeeppanwar_07", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
